@@ -1,0 +1,163 @@
+body {
+    background-color: #f9f9f9; 
+}
+
+.layer-1 {
+    text-align: center;
+    width: 990px;
+    height: 800px;
+    margin: auto;
+    padding: 50px 46px;
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(214,214,214,1);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(214,214,214,1);
+    box-shadow: 0px 0px 3px 2px rgba(214,214,214,1);	
+}
+
+/*HEADER*/
+
+.logo {
+    display: block;
+    margin-bottom: 40px;
+    
+}
+
+.menu-head {
+    height: 40px;
+    margin-bottom: 40px;
+    padding: 0px;
+    background: linear-gradient(to top, #444343, #5e5e5e);
+}
+
+ul.menu-1 {
+    padding: 9px 0px;
+    list-style: none;
+    text-align: left;
+    
+}
+
+.menu-1 li {
+    display: inline;
+}
+
+.menu-1 li a {
+    text-decoration: none;
+    font: 11pt Open sans;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.box-menu {
+    height: 40px;
+    padding: 11px 25px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.box-menu:hover {
+    background: linear-gradient(to top, #2e2e2e, #4a4a4a);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+
+/*CONTENT*/
+
+.content {
+    height: auto;
+    width: auto;
+    text-align: left;
+}
+
+.left-column {    
+    float: left;
+    width: 240px;
+    height: 239px; 
+    border: 1px solid #c8c8c8;
+}
+
+.right-column {      
+    margin-left: 288px;      
+    
+}
+
+.product {    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #c8c8c8;
+    text-align: center;    
+}
+
+.tex-product {
+    padding: 40px 25px;
+    font: 10pt Open sans;
+    color: black;
+}
+
+.meunu-row {
+    height: 17px;
+    padding: 11px;
+    border-bottom: 1px solid #c8c8c8
+}
+
+.box-menu-left { 
+    width: 240px;
+    margin: 0px 13px;
+}
+
+.box-menu-left a {
+    text-decoration: none;
+    font: 10pt Open sans;
+    color: #656363;
+}
+
+.meunu-row:hover { 
+    padding-left: 21px;
+    background-color: #f9f9f9;
+}
+
+.meunu-row a:hover { 
+    color: black;
+}
+
+/*FUTER*/
+
+.menu-futer {
+    
+    height: 40px;
+    margin-bottom: 40px;
+    padding: 0px;
+    background-color: #e1e1e1;
+}
+
+ul.menu-2 {
+    float: left;
+    padding: 11px 0px;
+    list-style: none;
+    text-align: left;    
+}
+
+
+.menu-2 li {
+    display: inline;
+    padding: 0px 25px;
+}
+
+.menu-2 li a {
+    text-decoration: none;
+    font: 10pt Open sans;
+    color: #2c2c2c;
+}
+
+.menu-2 li a:hover {
+    text-decoration: underline;
+    font: 10pt Open sans;
+    color: #2c2c2c;
+}
+.copy {
+   padding: 11px 20px;
+   
+   text-align: right;
+   font: 10pt Open sans;
+}
+
+
